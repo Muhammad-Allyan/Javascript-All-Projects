@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script>
+        function changeContent (){
+            document.getElementById("contentChange").innerHTML="Content has been changed!";
+            document.getElementById("contentChange").style.color="green";
+        }
+
+    </script>
+    <title>Fresh JS</title>
+</head>
+
+<body>
+   
+    <h1 class="headings">Inline Javascript</h1>
+    <!-- Javascript Event Handlers -->
+     <button onclick="alert('I am an alert box!')">Alert Box</button>
+     <!-- Changing the content on click event -->
+      <p id="contentChange" style="color:red;">Click below button to change the content!</p>
+      <button type="button" onclick="changeContent()">Click To Change</button>
+      <!-- Logical Operators -->
+       <p id="logic_op"></p>
+       <p id="adultalert"></p>
+       <p id="pyramid"></p>
+       <script src="script.js"></script>
+       <!-- <script src="bubblesort.js"></script> -->
+       <!-- <script src="loop.js"></script> -->
+</body>
+
+</html>
