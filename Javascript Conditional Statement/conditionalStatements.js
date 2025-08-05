@@ -21,7 +21,7 @@ if (checkPNZNumber > 0) {
 
 // ✅ 3. Check if Number is Divisible by 5 and 3
 let checkDivisibleNumber = 15;
-if (checkDivisibleNumber % 5 === 0 && checkDivisibleNumber % 3 === 0) {
+if (checkDivisibleNumber % 5 === 0 || checkDivisibleNumber % 3 === 0) {
   console.log("The number is divisible by both 5 and 3");
 } else {
   console.log("Not divisible by both");
@@ -45,4 +45,22 @@ if (checkGrades >= 90) {
   console.log("Grade C");
 } else {
   console.log("Failed");
+}
+
+// ✅ 6. Check Largest of Two Numbers
+let a = 5, b = 25;
+if (a > b) {
+  console.log("You got the greatest number");
+}else if(a < b){
+  console.log("You got the lowest number");
+}else{
+  console.log("Both are equal numbers");
+}
+
+// ✅ 7. Check Leap Year
+let year = 2024;
+if((year % 4 === 0 && year % 100 !== 0) || (year % 400 === 0)){
+  console.log("Leap year");
+}else{
+  console.log("No a leap year");
 }
