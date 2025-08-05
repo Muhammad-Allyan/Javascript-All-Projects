@@ -1,11 +1,11 @@
 // ✅ 1. Even or Odd Checker
-const evenOddFunc = function (num) { 
-if (num % 2 === 0) {
-  return "An Even Number!";
-} else {
-  return "An Odd Number!";
-}
-}
+const evenOddFunc = function (num) {
+  if (num % 2 === 0) {
+    return "An Even Number!";
+  } else {
+    return "An Odd Number!";
+  }
+};
 let result = evenOddFunc(12);
 console.log(result);
 
@@ -13,19 +13,17 @@ console.log(result);
 let checkPNZNumber = 25;
 if (checkPNZNumber > 0) {
   console.log("The number is positive!");
-}
-else if (checkPNZNumber < 0) {
+} else if (checkPNZNumber < 0) {
   console.log("The number is negative!");
-} else{
+} else {
   console.log("The number is Zero");
 }
 
 // ✅ 3. Check if Number is Divisible by 5 and 3
 let checkDivisibleNumber = 15;
-if (checkDivisibleNumber % 5 === 0 && checkDivisibleNumber % 3 === 0 ) {
+if (checkDivisibleNumber % 5 === 0 && checkDivisibleNumber % 3 === 0) {
   console.log("The number is divisible by both 5 and 3");
-}
-else{
+} else {
   console.log("Not divisible by both");
 }
 
@@ -33,9 +31,18 @@ else{
 let ageEligibility = 17;
 if (ageEligibility >= 18) {
   console.log("Eligible to vote!");
-}
-else{
+} else {
   console.log("Not eligible to vote!");
 }
 
 // ✅ 5. Grading System
+let checkGrades = 75;
+if (checkGrades >= 90) {
+  console.log("Grade A");
+} else if (checkGrades >= 80) {
+  console.log("Grade B");
+} else if (checkGrades >= 70) {
+  console.log("Grade C");
+} else {
+  console.log("Failed");
+}
