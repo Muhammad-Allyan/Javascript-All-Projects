@@ -168,3 +168,9 @@ if (username === "admin" && password2 === "12345") {
 }
 
 // ✅ 5. Using Logical OR (||)
+  let day = "saturday";
+  if(day === "saturday" || day === "sunday"){
+  console.log("It's weekend");
+}
+  else{
+console.log("Week Days");}
