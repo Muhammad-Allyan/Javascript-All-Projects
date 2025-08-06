@@ -174,3 +174,15 @@ if (username === "admin" && password2 === "12345") {
 }
   else{
 console.log("Week Days");}
+
+// ✅ 6. Nested if Statements
+let userLoggedIn = true;
+let hasPremium = false;
+if (userLoggedIn) {
+  if (hasPremium) {
+    console.log("Show premium dashboard");
+  }
+  console.log("Upgrade to premium");
+} else{
+  console.log("Login first");
+}
