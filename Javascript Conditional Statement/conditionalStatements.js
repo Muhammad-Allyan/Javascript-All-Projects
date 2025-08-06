@@ -195,3 +195,9 @@ if (!isEmailVerfied) {
 } else {
   console.log("Correct email");
 }
+
+// ✅ 8. Ternary Operator
+
+let ternaryAge = 17;
+let ternaryResult = ternaryAge >= 18 ? "Eligible to vote" : "Not eligible to vote";
+console.log(ternaryResult);
