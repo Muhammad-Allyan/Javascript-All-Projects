@@ -186,3 +186,12 @@ if (userLoggedIn) {
 } else{
   console.log("Login first");
 }
+
+// ✅ 7. Using NOT ! Operator
+
+let isEmailVerfied = false;
+if (!isEmailVerfied) {
+  console.log("Please verify your email");
+} else {
+  console.log("Correct email");
+}
