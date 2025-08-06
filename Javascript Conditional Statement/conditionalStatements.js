@@ -48,27 +48,34 @@ if (checkGrades >= 90) {
 }
 
 // ✅ 6. Check Largest of Two Numbers
-let a = 5, b = 25;
+let a = 5,
+  b = 25;
 if (a > b) {
   console.log("You got the greatest number");
-}else if(a < b){
+} else if (a < b) {
   console.log("You got the lowest number");
-}else{
+} else {
   console.log("Both are equal numbers");
 }
 
 // ✅ 7. Check Leap Year
 let year = 2024;
-if((year % 4 === 0 && year % 100 !== 0) || (year % 400 === 0)){
+if ((year % 4 === 0 && year % 100 !== 0) || year % 400 === 0) {
   console.log("Leap year");
-}else{
+} else {
   console.log("No a leap year");
 }
 
 // ✅ 8. Check Character is Vowel or Consonant
 let char = "e";
-if (char === "a" || char === "e" || char === "i" || char === "o" || char === "u") {
-  console.log("A vowel alphabet");  
+if (
+  char === "a" ||
+  char === "e" ||
+  char === "i" ||
+  char === "o" ||
+  char === "u"
+) {
+  console.log("A vowel alphabet");
 } else {
   console.log("A consonent alphabet");
 }
@@ -76,7 +83,7 @@ if (char === "a" || char === "e" || char === "i" || char === "o" || char === "u"
 // ✅ 9. Login Authentication
 let userName = "admin";
 let password = "12345";
-if (userName === "admin" && password === "12345" ) {
+if (userName === "admin" && password === "12345") {
   console.log("Login Successful");
 } else {
   console.log("Login Failed");
@@ -84,18 +91,80 @@ if (userName === "admin" && password === "12345" ) {
 
 // ✅ 10. Simple Calculator Using Condition
 // let value1 = Number(prompt("Enter first value")), operator = prompt("Enter operator any (+,-,*,/):"), value2 = Number(prompt("Enter second value"));
-let value1 = 5, operator = "*", value2 = 5;
+let value1 = 5,
+  operator = "*",
+  value2 = 5;
 if (operator === "+") {
   console.log(value1 + value2);
-} else if(operator === "-"){
+} else if (operator === "-") {
   console.log(value1 - value2);
-}
-  else if(operator === "*"){
+} else if (operator === "*") {
   console.log(value1 * value2);
+} else if (operator === "/") {
+  console.log(value1 / value2);
+} else {
+  console.log("Invalid operator");
 }
-  else if(operator === "/"){
-    console.log(value1 / value2);
-  }
-  else{
-    console.log("Invalid operator");
-  }
+
+// New Exercise
+/*
+if
+
+else
+
+if...else
+
+else if
+
+nested if
+
+logical operators (AND &&, OR ||, NOT !)
+
+ternary operator
+
+switch (also part of control flow)
+  */
+
+//✅ 1. Basic if
+let age = 20;
+
+if (age > 18) {
+  console.log("You are an adult.");
+}
+
+
+// ✅ 2. if...else
+
+let isRainy = false;
+
+if (isRainy) {
+  console.log("Take an umbrella.");
+} else {
+  console.log("Enjoy the sunshine!");
+}
+
+// ✅ 3. if...else if...else
+
+let score = 76;
+
+if (score >= 90) {
+  console.log("Grade: A");
+} else if (score >= 80) {
+  console.log("Grade: B");
+} else if (score >= 70) {
+  console.log("Grade: C");
+} else {
+  console.log("Grade: F");
+}
+
+// ✅ 4. Using Logical AND (&&)
+let username = "admin";
+let password2 = "12345";
+
+if (username === "admin" && password2 === "12345") {
+  console.log("Access granted");
+} else {
+  console.log("Invalid login");
+}
+
+// ✅ 5. Using Logical OR (||)
