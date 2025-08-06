@@ -201,3 +201,20 @@ if (!isEmailVerfied) {
 let ternaryAge = 17;
 let ternaryResult = ternaryAge >= 18 ? "Eligible to vote" : "Not eligible to vote";
 console.log(ternaryResult);
+
+// ✅ 9. Switch Statement
+let checkCase = "Monday";
+switch (checkCase) {
+  case "Monday":
+    console.log("Start of the week");
+    break;
+    case "Friday":
+    console.log("Almost weekend");
+    break;
+    case "saturday":
+      console.log("Rest day");
+      break;
+  default: 
+  console.log("Just another day");
+    break;
+}
