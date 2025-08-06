@@ -83,7 +83,8 @@ if (userName === "admin" && password === "12345" ) {
 }
 
 // ✅ 10. Simple Calculator Using Condition
-let value1 = Number(prompt("Enter first value")), operator = prompt("Enter operator any (+,-,*,/):"), value2 = Number(prompt("Enter second value"));
+// let value1 = Number(prompt("Enter first value")), operator = prompt("Enter operator any (+,-,*,/):"), value2 = Number(prompt("Enter second value"));
+let value1 = 5, operator = "*", value2 = 5;
 if (operator === "+") {
   console.log(value1 + value2);
 } else if(operator === "-"){
