@@ -77,7 +77,24 @@ if (char === "a" || char === "e" || char === "i" || char === "o" || char === "u"
 let userName = "admin";
 let password = "12345";
 if (userName === "admin" && password === "12345" ) {
-  console.log("Login Successful")
+  console.log("Login Successful");
 } else {
-  console.log("Login Failed")
+  console.log("Login Failed");
 }
+
+// ✅ 10. Simple Calculator Using Condition
+let value1 = Number(prompt("Enter first value")), operator = prompt("Enter operator any (+,-,*,/):"), value2 = Number(prompt("Enter second value"));
+if (operator === "+") {
+  console.log(value1 + value2);
+} else if(operator === "-"){
+  console.log(value1 - value2);
+}
+  else if(operator === "*"){
+  console.log(value1 * value2);
+}
+  else if(operator === "/"){
+    console.log(value1 / value2);
+  }
+  else{
+    console.log("Invalid operator");
+  }
