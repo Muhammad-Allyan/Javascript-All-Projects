@@ -64,3 +64,11 @@ if((year % 4 === 0 && year % 100 !== 0) || (year % 400 === 0)){
 }else{
   console.log("No a leap year");
 }
+
+// ✅ 8. Check Character is Vowel or Consonant
+let char = "e";
+if (char === "a" || char === "e" || char === "i" || char === "o" || char === "u") {
+  console.log("A vowel alphabet");  
+} else {
+  console.log("A consonent alphabet");
+}
