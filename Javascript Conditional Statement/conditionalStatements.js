@@ -218,3 +218,20 @@ switch (checkCase) {
   console.log("Just another day");
     break;
 }
+
+// ✅ 10. Complex Logic with All Types
+
+let temp = 35;
+let isRaining = false;
+if (temp >= 30 && !isRaining) {
+  console.log("It's hot and dry. Stay hydrated.");
+}
+ else if(temp >= 30 && isRaining) {
+  console.log("It's hot and raining. Muggy weather.");
+}
+else if(temp <= 30 && isRaining){
+  console.log("Cool and rainy. Take a jacket.");
+}
+else{
+  console.log("Perfect weather");
+}
